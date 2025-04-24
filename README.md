@@ -1,6 +1,6 @@
 # 🧙‍♂️ LtaFantasy-Data
 
-Um coletor de dados para a Fantasy da LTA (Liga de Torneios Amadores), que consome dados via API e exporta as informações em arquivos CSV organizados por tipo de dado.
+Um coletor de dados para o [LTA Fantasy](https://ltafantasy.com), que consome dados via API e exporta as informações em arquivos CSV organizados por tipo de dado.
 
 ## 📦 Sobre o projeto
 
