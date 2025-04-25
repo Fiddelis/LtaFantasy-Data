@@ -125,9 +125,3 @@ src/
 ├── main.py
 ├── recommendation.py   # Novo script para recomendação de equipe
 ``` 
-
----
-
-Essa versão mais simples e direta do README tem a explicação concisa de como usar a funcionalidade de recomendação de time e como executar o script com exemplos claros. Você pode adicionar diretamente essa seção no seu arquivo README para fornecer informações claras aos usuários do seu projeto.
-
-Se precisar de mais algo, é só avisar!
