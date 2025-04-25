@@ -62,7 +62,7 @@ Best team (budget ≤ 50):
 
     Role   | Name             | Price   | Priority
    -----------------------------------------------------
-    Top    | PlayerTop        | 12.50   | 1
+    Top    | PlayerTop        | 12.00   | 1
     Jungle | PlayerJungle     | 15.00   | 1
     Mid    | PlayerMid        | 18.00   | 1
     Bottom | PlayerBottom     | 10.00   | 1
