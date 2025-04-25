@@ -1,6 +1,6 @@
 # 🧙‍♂️ LtaFantasy-Data
 
-Um coletor de dados para o [LTA Fantasy](https://ltafantasy.com), que consome dados via API e exporta as informações em arquivos CSV organizados por tipo de dado.
+Um coletor de dados para o [LTA Fantasy](https://ltafantasy.com), que consome dados via API, exporta as informações em arquivos CSV organizados por tipo de dado e também faz recomendações de equipes de Fantasy com base nas prioridades das roles e no orçamento disponível.
 
 ## 📂 Índice
 
@@ -20,13 +20,15 @@ Este script permite a coleta de:
 - Dados individuais por jogador (`individual`)
 - Estatísticas gerais do mercado (`markets`)
 
-Ideal para análises personalizadas, históricos e visualizações com ferramentas externas (como Excel, Power BI ou notebooks Python).
+Além disso, o script também pode gerar a **melhor equipe de Fantasy**, selecionando um jogador de cada role (top, jungle, mid, bottom, support) dentro de um **orçamento determinado**.
+
+Ideal para análises personalizadas, históricos, visualizações e para quem deseja montar a melhor equipe com base nos dados coletados.
 
 ---
 
 ## ⚡ Recomendação de Equipe Fantasy
 
-Esse script também permite gerar a **melhor equipe de Fantasy** com base nas prioridades das roles e no **orçamento disponível**.
+Foi utilizado uma variação do **algoritmo da mochila com restrições de grupos**, onde é possível dar prioridades diferentes para cada role. Ele puxa os dados de mercado da API do LTA Fantasy e retorna a melhor equipe dentro do orçamento disponível, considerando as prioridades definidas para cada função.
 
 ### Como utilizar
 
